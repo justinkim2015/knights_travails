@@ -4,4 +4,4 @@ require_relative 'board'
 require 'pry'
 
 board = Board.new
-board.make_node(0, 0)
+board.make_board
