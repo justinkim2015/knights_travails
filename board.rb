@@ -21,16 +21,27 @@ class Board
 
   def add_edge(node1, node2)
     @nodes[node1].add_edge_node(@nodes[node2])
-    @nodes[node2].add_edge_node(@nodes[node1])
   end
 
-  def all_edges
+  def add_all_edges
+    array = all_edge_values
+
+    array.each do |subarray|
+      i = 1
+      (subarray.length - 2).times do
+        add_edge(subarray[0], subarray[i])
+        i += 1
+      end
+    end
+  end
+
+  def all_edge_values
     array = []
     possible_values = [0, 1, 2, 3, 4, 5, 6, 7]
     arr = possible_values.repeated_permutation(2).to_a
     i = 0
     arr.length.times do
-      array << filter(adjacent_node_values(i[0], i[1]))
+      array << filtered_values(arr[i][0], arr[i][1])
       i += 1
     end
     array
@@ -41,7 +52,7 @@ class Board
   end
 
   def adjacent_node_values(coord_x, coord_y)
-    array = []
+    array = [[coord_x, coord_y]]
     array << [(coord_x + 2), (coord_y + 1)]
     array << [(coord_x + 1), (coord_y + 2)]
     array << [(coord_x + 2), (coord_y - 1)]
@@ -63,5 +74,8 @@ class Board
       i += 1
     end
     array
+  end
+
+  def level_order(entry, exit)
   end
 end

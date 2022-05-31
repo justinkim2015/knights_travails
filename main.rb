@@ -5,3 +5,4 @@ require 'pry'
 
 board = Board.new
 board.make_board
+board.add_all_edges
