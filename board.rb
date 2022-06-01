@@ -76,7 +76,6 @@ class Board
     array
   end
 
-  # Theres still a glitch in here about setting the previous node, [3,3] to [5,6] creates an infinite loop of [6, 3] to [4, 4]
   def knight_moves(entry, fin)
     visited = []
     queue = []
@@ -95,9 +94,11 @@ class Board
       end
       visited << current
       current.adjacent_nodes.each do |node|
-        node.prev = current
         node.distance = current.distance + 1
-        queue << node unless visited.include?(node)
+        unless visited.include?(node)
+          queue << node
+          node.prev = current
+        end
       end
       queue.shift
     end
