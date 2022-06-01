@@ -76,31 +76,42 @@ class Board
     array
   end
 
-  # Slam everything into the queue then look through the queue, its an array,
-  # to find the exit point.  Next question, how to get to the end point efficiently?
-  def level_order(entry, fin)
+  # Theres still a glitch in here about setting the previous node, [3,3] to [5,6] creates an infinite loop of [6, 3] to [4, 4]
+  def knight_moves(entry, fin)
     visited = []
     queue = []
 
     queue << entry
 
     until queue.empty?
-      # binding.pry
       current = queue[0]
-      p current.value
       if fin == current.value
-        puts "You reached #{fin}!"
+        # entry.prev is set to nil so the trace_path method has an exit point
+        entry.prev = nil
+        puts "It took #{current.distance} moves! to reach #{fin}"
+        puts 'The path was:'
+        trace_path(current)
         break
       end
       visited << current
-      puts "You visited #{current.value}"
       current.adjacent_nodes.each do |node|
+        node.prev = current
+        node.distance = current.distance + 1
         queue << node unless visited.include?(node)
       end
       queue.shift
     end
   end
-  # Looking at the adjacent nodes, find the node closest to the one I want to go to
-  # and move to that node, then repeat
-  # THERE ARE NON-LEGAL MOVES IN MY TRAVERSAL
+
+  def trace_path(node)
+    arr = []
+
+    until node.nil?
+      arr << node.value
+      node = node.prev
+    end
+    arr.reverse.each do |coord|
+      p coord
+    end
+  end
 end
