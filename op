@@ -1,0 +1,104 @@
+=> [[32m#<Node:0x0000558ed0b798a0[0m
+  @adjacent_nodes[32m=[0m
+   [[32m#<Node:0x0000558ed0b78b08[0m
+     @adjacent_nodes[32m=[0m
+      [[32m#<Node:0x0000558ed0b786d0[0m
+        @adjacent_nodes[32m=[0m
+         [[32m#<Node:0x0000558ed0b78b08[0m ...[32m>[0m,
+          [32m#<Node:0x0000558ed0b79198[0m
+           @adjacent_nodes[32m=[0m
+            [[32m#<Node:0x0000558ed0b786d0[0m ...[32m>[0m,
+             [32m#<Node:0x0000558ed0b78900[0m
+              @adjacent_nodes[32m=[0m
+               [[32m#<Node:0x0000558ed0b78720[0m
+                 @adjacent_nodes[32m=[0m
+                  [[32m#<Node:0x0000558ed0b78ea0[0m
+                    @adjacent_nodes[32m=[0m
+                     [[32m#<Node:0x0000558ed0b78720[0m ...[32m>[0m,
+                      [32m#<Node:0x0000558ed0b78860[0m
+                       @adjacent_nodes[32m=[0m
+                        [[32m#<Node:0x0000558ed0b79288[0m
+                          @adjacent_nodes[32m=[0m
+                           [[32m#<Node:0x0000558ed0b787c0[0m
+                             @adjacent_nodes[32m=[0m
+                              [[32m#<Node:0x0000558ed0b79058[0m
+                                @adjacent_nodes[32m=[0m
+                                 [[32m#<Node:0x0000558ed0b787c0[0m ...[32m>[0m,
+                                  [32m#<Node:0x0000558ed0b798f0[0m
+                                   @adjacent_nodes[32m=[0m
+                                    [[32m#<Node:0x0000558ed0b78ea0[0m ...[32m>[0m,
+                                     [32m#<Node:0x0000558ed0b791e8[0m
+                                      @adjacent_nodes[32m=[0m
+                                       [[32m#<Node:0x0000558ed0b78720[0m ...[32m>[0m,
+                                        [32m#<Node:0x0000558ed0b78950[0m
+                                         @adjacent_nodes[32m=[0m
+                                          [[32m#<Node:0x0000558ed0b78630[0m
+                                            @adjacent_nodes[32m=[0m
+                                             [[32m#<Node:0x0000558ed0b78950[0m ...[32m>[0m],
+                                            @value[32m=[0m[[1;34m7[0m, [1;34m7[0m][32m>[0m,
+                                           [32m#<Node:0x0000558ed0b78770[0m
+                                            @adjacent_nodes[32m=[0m
+                                             [[32m#<Node:0x0000558ed0b78fe0[0m
+                                               @adjacent_nodes[32m=[0m
+                                                [[32m#<Node:0x0000558ed0b78770[0m
+                                                  ...[32m>[0m,
+                                                 [32m#<Node:0x0000558ed0b79940[0m
+                                                  @adjacent_nodes[32m=[0m
+                                                   [[32m#<Node:0x0000558ed0b78fe0[0m
+                                                     ...[32m>[0m,
+                                                    [32m#<Node:0x0000558ed0b79238[0m
+                                                     @adjacent_nodes[32m=[0m
+                                                      [[32m#<Node:0x0000558ed0b78770[0m
+                                                        ...[32m>[0m,
+                                                       [32m#<Node:0x0000558ed0b789c8[0m
+                                                        @adjacent_nodes[32m=[0m
+                                                         [[32m#<Node:0x0000558ed0b78680[0m
+                                                           @adjacent_nodes[32m=[0m
+                                                            [[32m#<Node:0x0000558ed0b789c8[0m
+                                                              ...[32m>[0m,
+                                                             [32m#<Node:0x0000558ed0b79148[0m
+                                                              @adjacent_nodes[32m=[0m
+                                                               [[32m#<Node:0x0000558ed0b78680[0m
+                                                                 ...[32m>[0m,
+                                                                [32m#<Node:0x0000558ed0b788b0[0m
+                                                                 @adjacent_nodes[32m=[0m
+                                                                  [[32m#<Node:0x0000558ed0b786d0[0m
+                                                                    ...[32m>[0m,
+                                                                   [32m#<Node:0x0000558ed0b79148[0m
+                                                                    ...[32m>[0m],
+                                                                 @value[32m=[0m
+                                                                  [[1;34m6[0m, [1;34m7[0m][32m>[0m,
+                                                                [32m#<Node:0x0000558ed0b78720[0m
+                                                                 ...[32m>[0m,
+                                                                [32m#<Node:0x0000558ed0b78b08[0m
+                                                                 ...[32m>[0m,
+                                                                [32m#<Node:0x0000558ed0b79850[0m
+                                                                 @adjacent_nodes[32m=[0m
+                                                                  [[32m#<Node:0x0000558ed0b789c8[0m
+                                                                    ...[32m>[0m,
+                                                                   [32m#<Node:0x0000558ed0b79148[0m
+                                                                    ...[32m>[0m,
+                                                                   [32m#<Node:0x0000558ed0b78ea0[0m
+                                                                    ...[32m>[0m,
+                                                                   [32m#<Node:0x0000558ed0b79288[0m
+                                                                    ...[32m>[0m,
+                                                                   [32m#<Node:0x0000558ed0b79be8[0m
+                                                                    @adjacent_nodes[32m=[0m
+                                                                     [[32m#<Node:0x0000558ed0b79238[0m
+                                                                       ...[32m>[0m,
+                                                                      [32m#<Node:0x0000558ed0b79850[0m
+                                                                       ...[32m>[0m,
+                                                                      [32m#<Node:0x0000558ed0b79300[0m
+                                                                       @adjacent_nodes[32m=[0m
+                                                                        [[32m#<Node:0x0000558ed0b78810[0m
+                                                                          @adjacent_nodes[32m=[0m
+                                                                           [[32m#<Node:0x0000558ed0b79300[0m
+                                                                             ...[32m>[0m,
+                                                                            [32m#<Node:0x0000558ed0b79238[0m
+                                                                             ...[32m>[0m],
+                                                                          @value[32m=[0m
+                                                                           [[1;34m7[0m,
+                                                                            [1;34m1[0m][32m>[0m,
+                                                                         [32m#<Node:0x0000558ed0b78ea0[0m
+                                                                          ...[32m>[0m,
+                                                        

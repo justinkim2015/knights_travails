@@ -28,7 +28,7 @@ class Board
 
     array.each do |subarray|
       i = 1
-      (subarray.length - 2).times do
+      (subarray.length - 1).times do
         add_edge(subarray[0], subarray[i])
         i += 1
       end
@@ -76,6 +76,31 @@ class Board
     array
   end
 
-  def level_order(entry, exit)
+  # Slam everything into the queue then look through the queue, its an array,
+  # to find the exit point.  Next question, how to get to the end point efficiently?
+  def level_order(entry, fin)
+    visited = []
+    queue = []
+
+    queue << entry
+
+    until queue.empty?
+      # binding.pry
+      current = queue[0]
+      p current.value
+      if fin == current.value
+        puts "You reached #{fin}!"
+        break
+      end
+      visited << current
+      puts "You visited #{current.value}"
+      current.adjacent_nodes.each do |node|
+        queue << node unless visited.include?(node)
+      end
+      queue.shift
+    end
   end
+  # Looking at the adjacent nodes, find the node closest to the one I want to go to
+  # and move to that node, then repeat
+  # THERE ARE NON-LEGAL MOVES IN MY TRAVERSAL
 end
